@@ -1,5 +1,5 @@
-readme = "README.md"
-script = "guessinggame.sh"
+readme = "./README.md"
+script = "./guessinggame.sh"
 
 $(readme):
 	echo "# Guessing Game" >$(readme)
