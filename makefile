@@ -2,7 +2,7 @@ readme = "README.md"
 script = "guessinggame.sh"
 
 $(readme):
-	echo "# Guessing Game\n" >$(readme)
+	echo "# Guessing Game" >$(readme)
 	echo >>$(readme)
 	echo "*Created at $(shell date)*" >>$(readme)
 	echo >>$(readme)
